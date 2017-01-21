@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: "off"
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: true
+    eviction-interval-timer-in-ms: 1000
